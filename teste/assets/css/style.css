@@ -14,7 +14,7 @@ body{
 .header{
   height: 80px;
   width: 70%;
-  background-color: goldenrod;
+  background-color: rgb(0, 0, 0);
   border-radius: 3px;
   margin: 30px 0px;
   display: flex;
@@ -37,7 +37,7 @@ body{
   width: 80px;
 }
 .fa-solid{
-  color: goldenrod;
+  color: black;
 }
 .cart p{
   height: 22px;
@@ -46,7 +46,7 @@ body{
   align-items: center;
   justify-content: center;
   border-radius: 22px;
-  background-color: goldenrod;
+  background-color: black;
   color: white;
 }
 .container{
@@ -57,7 +57,7 @@ body{
 #root{
   width: 60%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr) ;
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
 .sidebar{
@@ -69,7 +69,7 @@ body{
   text-align: center;
 }
 .head{
-  background-color: goldenrod;
+  background-color: black;
   border-radius: 3px;
   height: 40px;
   padding: 10px;
@@ -90,7 +90,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid goldenrod;
+  border: 1px solid black;
   border-radius: 5px;
   padding: 15px;
 }
@@ -126,12 +126,12 @@ button{
   position: relative;
   border: none;
   border-radius: 5px;
-  background-color: goldenrod;
+  background-color: black;
   padding: 7px 25px;
   cursor: pointer;
   color: white;
 }
-butto:hover{
+button:hover{
   background-color: #333;
 }
 .cart-item{
@@ -141,13 +141,14 @@ butto:hover{
   padding: 10px;
   background-color: white;
   border-bottom: 1px solid #aaa;
-  border-radius: 10px 10px;
+  border-radius: 3px;
+  margin: 10px 10px;
 }
 .row-img{
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  border: 1px solid goldenrod;
+  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -156,4 +157,8 @@ butto:hover{
   max-width: 43px;
   max-height: 43px;
   border-radius: 50%;
+}
+.fa-trash:hover{
+  cursor: pointer;
+  color: #333;
 }

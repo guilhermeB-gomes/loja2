@@ -24,6 +24,6 @@
             </div>
         </div>
     </div>
-    <script src = "produtos.js"></script>
+    <script src="produtos.js"></script>
 </body>
 </html>
