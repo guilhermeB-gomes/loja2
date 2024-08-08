@@ -10,6 +10,7 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
 }
 .header{
   height: 80px;
@@ -53,12 +54,15 @@ body{
   display: flex;
   width: 70%;
   margin-bottom: 30px;
+  height: 80vh;
+
 }
 #root{
   width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
+  overflow-y: auto;
 }
 .sidebar{
   width: 40%;
